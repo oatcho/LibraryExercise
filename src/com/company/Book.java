@@ -40,6 +40,6 @@ public class Book {
     }
 
     public void describeBook() {
-        System.out.println("This book is titled: " + bookTitle + ", was authored by: " + bookAuthor + ", published by: " + bookPublisher + ", and is " + bookPageAmt + " long.");
+        System.out.println("This book is titled: " + bookTitle + ", was authored by: " + bookAuthor + ", published by: " + bookPublisher + ", and is " + bookPageAmt + " pages long. \n");
     }
 }

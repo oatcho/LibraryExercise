@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class GrandLibrary {
+public class BookDemo {
 
     public static Scanner key = new Scanner(System.in);
 
@@ -17,16 +17,14 @@ public class GrandLibrary {
             if(menuChoice <1 || menuChoice >3) {
                 System.out.println("Sorry, Man. We don't do that here.");
             }
-        } while (menuChoice >1 || menuChoice <3);
+        } while (menuChoice <1 || menuChoice >3);
         return menuChoice;
     }
 
     public static void main(String[] args) {
 
         int menuOption = 0;
-        Book enterBook = new Book();
         Library seeLibrary = new Library();
-        Library giveBook = new Library();
 
 
         while (menuOption !=3) {
@@ -36,12 +34,15 @@ public class GrandLibrary {
                 case 1:
 
                     seeLibrary.numberOfBooksInLibrary();
-                    seeLibrary.showAllBooksInLibrary();
+                    seeLibrary.printBooks();
                     break;
 
                 case 2:
 
+                    Book enterBook = new Book();
+
                     System.out.println("What's the name of the book, dude?");
+                    key.nextLine();
                     enterBook.setBookTitle(key.nextLine());
 
                     System.out.println("Who wrote it?");
@@ -53,7 +54,9 @@ public class GrandLibrary {
                     System.out.println("How many pages long is it?");
                     enterBook.setBookPageAmt(key.nextInt());
 
-                    giveBook.booksInMyLibrary[0] = enterBook;
+                    seeLibrary.addBook(enterBook);
+
+                    break;
             }
         }
 
