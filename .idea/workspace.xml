@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2bf4e0-126c-451b-a3ae-9c02d58312b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JDsBookDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/com/company/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AreaCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../AreaCalculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArrayPractice" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayPractice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CarProgram" beforeDir="false" afterPath="$PROJECT_DIR$/../CarProgram" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BookDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Make A Shape" beforeDir="false" afterPath="$PROJECT_DIR$/../Make A Shape" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringPractice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringPractice/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StringPractice/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adventureGame" beforeDir="false" afterPath="$PROJECT_DIR$/../adventureGame" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise8.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise8.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise8.0/out/production/exercise8.0/com/company/Sandwich.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise8.0/out/production/exercise8.0/com/company/Sandwich.class" afterDir="false" />
@@ -23,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="334">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -35,17 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="66" column="71" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
+            <state relative-caret-position="588">
+              <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -67,15 +77,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/GrandLibrary.java" />
         <option value="$PROJECT_DIR$/src/com/company/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Library.java" />
         <option value="$PROJECT_DIR$/src/com/company/BookDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Library.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,7 +123,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548772379979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548802506138" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,12 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548358055096</updated>
       <workItem from="1548358058699" duration="32724000" />
-      <workItem from="1548772134457" duration="245000" />
+      <workItem from="1548772134457" duration="4536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32969000" />
+    <option name="totallyTimeSpent" value="37260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -209,40 +218,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="334">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="66" column="71" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
+        <state relative-caret-position="588">
+          <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
         </state>
       </provider>
     </entry>

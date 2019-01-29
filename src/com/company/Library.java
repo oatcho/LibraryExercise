@@ -58,17 +58,27 @@ public class Library {
         for (int i = 0; i < booksInMyLibrary.length; i++) {
             if (booksInMyLibrary[i].getBookTitle().equalsIgnoreCase(searchInput)){
 
-                System.out.println("What do you want to do next? \n 1) Edit Book Info \n 2) Take Book \n 3) Return to Main Menu");
+                System.out.println("What do you want to do next? \n 1) Edit Book Info \n 2) Take (Delete) Book \n 3) Return to Main Menu");
                 int searchMenuOption = ser.nextInt();
                 while (searchMenuOption != 3) {
                     switch (searchMenuOption) {
 
                         case 1:
-                            System.out.println("option one is working");
+                            System.out.println("What do you want to do to the title? \n");
+                            System.out.println("1) Edit Title...");
+                            int inputEditOption = ser.nextInt();
+                            switch (inputEditOption) {
+                                case 1:
+                                    System.out.println("What would you like to change the title to?");
+                                    ser.nextLine();
+                                    booksInMyLibrary[i].setBookTitle(ser.nextLine());
+
+
+                            }
                             break;
 
                         case 2:
-                            System.out.println("option 2 is working");
+                            booksInMyLibrary[i] = null;
                             break;
 
                     }

@@ -26,8 +26,8 @@ public class BookDemo {
 
         int menuOption = 0;
         Library seeLibrary = new Library();
-//        Book firstBook = new Book ("Harry Potter", "JK Rowling", "Penguin", 400);
-//        seeLibrary.booksInMyLibrary[0]=firstBook;
+        Book firstBook = new Book ();
+        seeLibrary.booksInMyLibrary[0]=firstBook;
 
 
         while (menuOption !=4) {

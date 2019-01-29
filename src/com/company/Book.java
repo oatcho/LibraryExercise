@@ -7,6 +7,13 @@ public class Book {
     private String bookPublisher;
     private int bookPageAmt;
 
+    public Book() {
+        bookTitle = "Harry Potter";
+        bookAuthor = "JK Rowling";
+        bookPublisher = "Penguin";
+        bookPageAmt = 200;
+    }
+
     public String getBookTitle() {
         return bookTitle;
     }
