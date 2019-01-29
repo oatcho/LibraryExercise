@@ -1,8 +1,11 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Library {
 
     Book [] booksInMyLibrary = new Book [2];
+    public static Scanner ser = new Scanner(System.in);
 
 
     public int numberOfBooksInLibrary() {
@@ -44,6 +47,23 @@ public class Library {
 
     public boolean hasRoom() {
         return !isFull();
+    }
+
+    public void search() {
+
+
+        String searchInput;
+        System.out.println("What's the name of the book?");
+        searchInput = ser.nextLine();
+        for (int i = 0; i < booksInMyLibrary.length; i++) {
+            if (booksInMyLibrary[i].getBookTitle().equalsIgnoreCase(searchInput)){
+                System.out.println("What do you want to do next?");
+            }
+            else {
+                System.out.println("Sorry we don't have that book.");
+            }
+
+        break;}
     }
 
 
