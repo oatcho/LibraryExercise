@@ -11,11 +11,11 @@ public class BookDemo {
         int menuChoice;
 
         do {
-            System.out.println("Welcome to the Detroit Labs Library, what do you want from me? \n 1) Show me what you got. \n 2) I want to give you this book here, man. \n 3) I came for a particular book. \n 4) This is actually kind of weird, I'm going home");
+            System.out.println("Welcome to the Detroit Labs Library, how can I help you? \n 1) Show me your selection of books, bro \n 2) I want to donate a book. \n 3) I came looking for a particular book. \n 4) I'm ready to go home now");
             menuChoice = key.nextInt();
 
             if(menuChoice <1 || menuChoice >4) {
-                System.out.println("Sorry, Man. We don't do that here.");
+                System.out.println("Sorry, we can't do that here");
             }
         } while (menuChoice <1 || menuChoice >4);
         return menuChoice;
@@ -46,7 +46,7 @@ public class BookDemo {
 
                         Book enterBook = new Book();
 
-                        System.out.println("What's the name of the book, dude?");
+                        System.out.println("What's the name of the book?");
                         key.nextLine();
                         enterBook.setBookTitle(key.nextLine());
 

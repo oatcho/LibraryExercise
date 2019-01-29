@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Library {
 
-    Book [] booksInMyLibrary = new Book [3];
+    public Book [] booksInMyLibrary = new Book [3];
     public static Scanner ser = new Scanner(System.in);
 
 
@@ -58,7 +58,7 @@ public class Library {
         for (int i = 0; i < booksInMyLibrary.length; i++) {
             if (booksInMyLibrary[i].getBookTitle().equalsIgnoreCase(searchInput)){
 
-                System.out.println("What do you want to do next? \n 1) Edit Book Info \n 2) Take (Delete) Book \n 3) Return to Main Menu");
+                System.out.println("What do you want to do next? \n 1) Edit Book Info \n 2) Borrow (Delete) Book \n 3) Return to Main Menu");
                 int searchMenuOption = ser.nextInt();
                 while (searchMenuOption != 3) {
                     switch (searchMenuOption) {
