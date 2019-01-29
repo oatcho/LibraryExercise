@@ -23,8 +23,11 @@ public class BookDemo {
 
     public static void main(String[] args) {
 
+
         int menuOption = 0;
         Library seeLibrary = new Library();
+//        Book firstBook = new Book ("Harry Potter", "JK Rowling", "Penguin", 400);
+//        seeLibrary.booksInMyLibrary[0]=firstBook;
 
 
         while (menuOption !=4) {
