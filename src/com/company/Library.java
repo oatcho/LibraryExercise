@@ -16,6 +16,9 @@ public class Library {
             if (booksInMyLibrary.get(i) != null) {
                 numBooks++;
             }
+//            System.out.println(numBooks);
+//            return numBooks;
+
         }
 
         System.out.println("We've currently got " + numBooks + " book(s) in the library. \n");
@@ -66,26 +69,30 @@ public class Library {
                     switch (searchMenuOption) {
 
                         case 1:
-                            System.out.println("What part of the book would you like to edit? \n");
-                            System.out.println("1) Edit title \n 2) Edit author \n 3) Edit publisher \n 4) Edit number of pages \n 5) Exit");
+                            System.out.println("What part of the book would you like to edit?");
+                            System.out.println("\n1) Edit title \n 2) Edit author \n 3) Edit publisher \n 4) Edit number of pages \n 5) Exit");
                             int inputEditOption = ser.nextInt();
                             switch (inputEditOption) {
                                 case 1:
                                     System.out.println("What's the new title?");
                                     ser.nextLine();
                                     booksInMyLibrary.get(i).setBookTitle(ser.nextLine());
+                                    break;
                                 case 2:
                                     System.out.println("Who's the new author?");
                                     ser.nextLine();
                                     booksInMyLibrary.get(i).setBookAuthor(ser.nextLine());
+                                    break;
                                 case 3:
                                     System.out.println("Who's the new publisher?");
                                     ser.nextLine();
                                     booksInMyLibrary.get(i).setBookPublisher(ser.nextLine());
+                                    break;
                                 case 4:
                                     System.out.println("Whats the new total number of pages?");
                                     ser.nextInt();
                                     booksInMyLibrary.get(i).setBookPageAmt(ser.nextInt());
+                                    break;
                                 case 5:
                                     break;
 
@@ -102,7 +109,7 @@ public class Library {
                 }
             }
             else {
-                System.out.println("Sorry we don't have that book.");
+                System.out.println("Sorry we don't have that book. \n");
             }
 
         break;}

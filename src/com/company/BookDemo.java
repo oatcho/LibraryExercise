@@ -39,6 +39,7 @@ public class BookDemo {
 
                     seeLibrary.numberOfBooksInLibrary();
                     seeLibrary.printBooks();
+//                    seeLibrary.numberOfBooksInLibrary();
                     break;
 
                 case 2:
@@ -71,8 +72,6 @@ public class BookDemo {
                 case 3:
 
                     seeLibrary.search();
-
-
                     break;
 
             }
