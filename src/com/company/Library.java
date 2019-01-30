@@ -64,14 +64,28 @@ public class Library {
                     switch (searchMenuOption) {
 
                         case 1:
-                            System.out.println("What do you want to do to the title? \n");
-                            System.out.println("1) Edit Title...");
+                            System.out.println("What part of the book would you like to edit? \n");
+                            System.out.println("1) Edit title \n 2) Edit author \n 3) Edit publisher \n 4) Edit number of pages \n 5) Exit");
                             int inputEditOption = ser.nextInt();
                             switch (inputEditOption) {
                                 case 1:
-                                    System.out.println("What would you like to change the title to?");
+                                    System.out.println("What's the new title?");
                                     ser.nextLine();
                                     booksInMyLibrary[i].setBookTitle(ser.nextLine());
+                                case 2:
+                                    System.out.println("Who's the new author?");
+                                    ser.nextLine();
+                                    booksInMyLibrary[i].setBookAuthor(ser.nextLine());
+                                case 3:
+                                    System.out.println("Who's the new publisher?");
+                                    ser.nextLine();
+                                    booksInMyLibrary[i].setBookPublisher(ser.nextLine());
+                                case 4:
+                                    System.out.println("Whats the new total number of pages?");
+                                    ser.nextInt();
+                                    booksInMyLibrary[i].setBookPageAmt(ser.nextInt());
+                                case 5:
+                                    break;
 
 
                             }

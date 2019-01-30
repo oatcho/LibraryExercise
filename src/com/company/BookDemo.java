@@ -11,7 +11,7 @@ public class BookDemo {
         int menuChoice;
 
         do {
-            System.out.println("Welcome to the Detroit Labs Library, how can I help you? \n 1) Show me your selection of books, bro \n 2) I want to donate a book. \n 3) I came looking for a particular book. \n 4) I'm ready to go home now");
+            System.out.println("Welcome to the Detroit Labs Library, how can I help you? \n 1) Show me your selection of books \n 2) I want to donate a book. \n 3) I came looking for a particular book. \n 4) I'm ready to go home now");
             menuChoice = key.nextInt();
 
             if(menuChoice <1 || menuChoice >4) {
