@@ -27,7 +27,8 @@ public class BookDemo {
         int menuOption = 0;
         Library seeLibrary = new Library();
         Book firstBook = new Book ();
-        seeLibrary.booksInMyLibrary[0]=firstBook;
+        seeLibrary.booksInMyLibrary.add(0, firstBook);
+//        seeLibrary.booksInMyLibrary[0]=firstBook;
 
 
         while (menuOption !=4) {
@@ -76,8 +77,5 @@ public class BookDemo {
 
             }
         }
-
-
-
     }
 }

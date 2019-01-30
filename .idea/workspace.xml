@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2bf4e0-126c-451b-a3ae-9c02d58312b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArrayListPractice/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListPractice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored 2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored 2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored 2/src/com/company/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored 2/src/com/company/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored/src/com/company/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Exercise Refactored/src/com/company/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/com/company/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AreaCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../AreaCalculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArrayPractice" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayPractice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CarProgram" beforeDir="false" afterPath="$PROJECT_DIR$/../CarProgram" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryExercise/com/company/BookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryExercise/com/company/BookDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryExercise/com/company/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryExercise/com/company/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/BookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BookDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Make A Shape" beforeDir="false" afterPath="$PROJECT_DIR$/../Make A Shape" afterDir="false" />
@@ -35,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-407">
-              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="-209">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -53,8 +67,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+            <state relative-caret-position="241">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +84,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enter</find>
+      <find>first</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548810804373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548878658377" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,12 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548358055096</updated>
       <workItem from="1548358058699" duration="32724000" />
-      <workItem from="1548772134457" duration="7883000" />
+      <workItem from="1548772134457" duration="15241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40607000" />
+    <option name="totallyTimeSpent" value="47965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -214,6 +237,13 @@
         <state relative-caret-position="-3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -221,17 +251,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        <state relative-caret-position="241">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
