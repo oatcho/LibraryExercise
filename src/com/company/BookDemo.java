@@ -11,7 +11,7 @@ public class BookDemo {
         int menuChoice;
 
         do {
-            System.out.println("Welcome to the Detroit Labs Library, how can I help you? \n 1) Show me your selection of books \n 2) I want to donate a book. \n 3) I came looking for a particular book. \n 4) I'm ready to go home now");
+            System.out.println("Welcome to the Library, how can I help you? \n 1) Show me your selection of books \n 2) I want to donate a book. \n 3) I came looking for a particular book. \n 4) I'm ready to go home now");
             menuChoice = key.nextInt();
 
             if(menuChoice <1 || menuChoice >4) {
@@ -46,22 +46,7 @@ public class BookDemo {
 
                     if (seeLibrary.hasRoom()) {
 
-                        Book enterBook = new Book();
-
-                        System.out.println("What's the name of the book?");
-                        key.nextLine();
-                        enterBook.setBookTitle(key.nextLine());
-
-                        System.out.println("Who wrote it?");
-                        enterBook.setBookAuthor(key.nextLine());
-
-                        System.out.println("Who's the publisher?");
-                        enterBook.setBookPublisher(key.nextLine());
-
-                        System.out.println("How many pages long is it?");
-                        enterBook.setBookPageAmt(key.nextInt());
-
-                        seeLibrary.addBook(enterBook);
+                        seeLibrary.addBook();
 
                     } else {
                         System.out.println("We've got too many books right now, no thanks. \n");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Library {
 
 //    public Book [] booksInMyLibrary = new Book [3];
-    public ArrayList<Book> booksInMyLibrary = new ArrayList();
+    public ArrayList<Book> booksInMyLibrary = new ArrayList<>();
     public static Scanner ser = new Scanner(System.in);
 
 
@@ -17,16 +17,25 @@ public class Library {
                 numBooks++;
             }
 //            System.out.println(numBooks);
-//            return numBooks;
+            return numBooks;
 
         }
 
-        System.out.println("We've currently got " + numBooks + " book(s) in the library. \n");
+//        System.out.println("We've currently got " + numBooks + " book(s) in the library. \n");
         return numBooks;
     }
 
 
     public void printBooks() {
+
+        System.out.println(booksInMyLibrary);
+        int numBooks = 0;
+        for (int i = 0; i < booksInMyLibrary.size(); i++){
+            if (booksInMyLibrary.get(i) != null){
+                numBooks++;
+            }
+        }
+        System.out.println("We currently have " + numBooks + " book(s) in the library. \n");
         for (Book book : booksInMyLibrary) {
             if (book != null) {
                 book.describeBook();
@@ -34,15 +43,35 @@ public class Library {
         }
     }
 
-    public void addBook(Book book) {
+    public void addBook() {
 
-        for (int i = 0; i < booksInMyLibrary.size(); i++) {
-            if (booksInMyLibrary.get(i) == null) {
-                booksInMyLibrary.add(i, book);
-                break;
-            }
+        Book book = new Book();
 
-        }
+        System.out.println("What's the name of the book?");
+//        ser.nextLine();
+        book.setBookTitle(ser.nextLine());
+
+        System.out.println("Who wrote it?");
+        book.setBookAuthor(ser.nextLine());
+
+        System.out.println("Who's the publisher?");
+        book.setBookPublisher(ser.nextLine());
+
+        System.out.println("How many pages long is it?");
+        book.setBookPageAmt(ser.nextInt());
+
+        System.out.println(booksInMyLibrary.size());
+
+        booksInMyLibrary.add(book);
+
+        System.out.println(booksInMyLibrary.size());
+//        for (int i = 0; i < booksInMyLibrary.size(); i++) {
+//            if (booksInMyLibrary.get(i) == null) {
+//                booksInMyLibrary.add(i, book);
+//                break;
+//            }
+
+//        }
 
     }
 
@@ -59,10 +88,13 @@ public class Library {
 
         String searchInput;
         System.out.println("What's the name of the book?");
+        ser.nextLine();
         searchInput = ser.nextLine();
+        System.out.println(searchInput);
+        boolean bookFound = false;
         for (int i = 0; i < booksInMyLibrary.size(); i++) {
-            if (booksInMyLibrary.get(i).getBookTitle().equalsIgnoreCase(searchInput)){
-
+            if (booksInMyLibrary.get(i).getBookTitle().equalsIgnoreCase(searchInput)) {
+                bookFound = true;
                 System.out.println("What do you want to do next? \n 1) Edit Book Info \n 2) Borrow (Delete) Book \n 3) Return to Main Menu");
                 int searchMenuOption = ser.nextInt();
                 while (searchMenuOption != 3) {
@@ -95,25 +127,26 @@ public class Library {
                                     break;
                                 case 5:
                                     break;
+                                default:
+                                    break;
 
 
                             }
                             break;
 
                         case 2:
-                            booksInMyLibrary.add(i, null);
+                            booksInMyLibrary.remove(i);
                             break;
 
                     }
-                    break;
+//                    break;
                 }
             }
-            else {
-                System.out.println("Sorry we don't have that book. \n");
-            }
 
-        break;}
-
+        }
+        if (!bookFound) {
+            System.out.println("Sorry, we don't have that book here.");
+        }
     }
 
 
